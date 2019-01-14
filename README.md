@@ -2,6 +2,8 @@
 
 > This is a fork of [https://github.com/contiamo/react-connect-context](react-connect-context).
 
+[![Edit Creating a configurable component library with React Context](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/6wpk3lo9lr)
+
 This module exports a function factory that produces an HOC to wrap a component and provide the value of the context as props to the component, much like the [react-redux](https://react-redux.js.org/) API. The benefits of this approach versus the traditional Consumer:
 
 * All values are passed as props and can be read in your component's lifecycle methods
@@ -11,6 +13,8 @@ This module exports a function factory that produces an HOC to wrap a component 
 * You can select slices of the context value and map them to props that fit the component API
 * You can reference the props passed into the connected component when mapping the context value to props
 * You can customize the merging behavior to translate all props fed to the wrapped component
+
+See this Medium post: [Creating a configurable component library with React Context](https://medium.com/@mmiller42/creating-a-configurable-component-library-with-react-context-a940b5965a9b) to learn how to leverage this module to create a UI component library with shared configuration for the project using it.
 
 ## Getting Started
 
